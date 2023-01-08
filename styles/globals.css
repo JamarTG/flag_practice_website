@@ -1,0 +1,327 @@
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:  Segoe UI, Roboto, Oxygen, 
+    Ubuntu, Cantarell, Fira Sans, Droid Sans; 
+  background-color: #1e1e1e;
+ 
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+}
+
+h1{
+  font-size: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* ================================================ */
+.border{
+  border-radius: 10px;
+}
+.flag{
+  width: 400px;
+  height: 200px;
+}
+/* ====================Progress======================= */
+
+.progress{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.progress h4{
+  font-weight: 200;
+  background-color: rgb(16, 113, 48);
+  padding: 3px 15px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+/* =================================================== */
+
+
+* {
+  box-sizing: border-box;
+}
+
+.centered-items {
+  margin-top: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -10px;
+  flex: 1;
+  
+}
+
+.centered-items > * {
+  margin: 10px;
+}
+/* =================================================== */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0088cc;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Sen', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 8rem;
+}
+
+.button:hover {
+  background-color: #006699;
+}
+
+.button:active {
+  background-color: #004c66;
+}
+/* ====================================== */
+.container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  color:white;
+  /* padding: 30px; */
+  /* margin: 10px; */
+  width:  1000px;
+  height: 600px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20%;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* ====PROGRESS BAR============*/
+.progress{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+#progress-bar{
+  background-color: transparent;
+  
+}
+
+#progress-bar::-webkit-progress-bar {
+  background-color: rgb(204, 32, 32);
+  height: 10px;
+  color: aqua;
+}
+
+#progress-bar::-webkit-progress-value {
+  background-color: #101ba8;
+  height: 10px;
+
+}
+
+/* =============================== */
+
+*, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+html :hover {
+  cursor: pointer;
+}
+body {
+  height: 100%;
+  /* background: #eceff1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 700px;
+  overflow: hidden;
+}
+.wrapper {
+  position: relative;
+  width: 360px;
+  height: 180px;
+  transform: rotateY(20deg) skew(5deg);
+  transform-style: preserve-3d;
+  background-image: url("https://flags.fmcdn.net/data/flags/w580/in.png");
+  background-size: 0;
+  background-position: -200% -200%;
+}
+.wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 7.5px;
+  height: 360px;
+  background: #dbd9d9;
+  border-radius: 10px;
+  left: 7px;
+}
+.s {
+  position: absolute;
+  transform-style: preserve-3d;
+  left: 14px;
+  width: 15px;
+  height: 200px;
+  transform-origin: 0 0;
+  background-repeat: no-repeat;
+  background-size: 360px 100%;
+  transform: translateZ(0.0001px) rotateY(14.1176470588deg);
+  background-image: inherit;
+  
+}
+.s1 {
+  background-position-x: -15px;
+  animation: w 1s 0.08s ease-in-out infinite alternate;
+}
+.s2 {
+  background-position-x: -30px;
+  animation: w 1s 0.16s ease-in-out infinite alternate;
+}
+.s3 {
+  background-position-x: -45px;
+  animation: w 1s 0.24s ease-in-out infinite alternate;
+}
+.s4 {
+  background-position-x: -60px;
+  animation: w 1s 0.32s ease-in-out infinite alternate;
+}
+.s5 {
+  background-position-x: -75px;
+  animation: w 1s 0.4s ease-in-out infinite alternate;
+}
+.s6 {
+  background-position-x: -90px;
+  animation: w 1s 0.48s ease-in-out infinite alternate;
+}
+.s7 {
+  background-position-x: -105px;
+  animation: w 1s 0.56s ease-in-out infinite alternate;
+}
+.s8 {
+  background-position-x: -120px;
+  animation: w 1s 0.64s ease-in-out infinite alternate;
+}
+.s9 {
+  background-position-x: -135px;
+  animation: w 1s 0.72s ease-in-out infinite alternate;
+}
+.s10 {
+  background-position-x: -150px;
+  animation: w 1s 0.8s ease-in-out infinite alternate;
+}
+.s11 {
+  background-position-x: -165px;
+  animation: w 1s 0.88s ease-in-out infinite alternate;
+}
+.s12 {
+  background-position-x: -180px;
+  animation: w 1s 0.96s ease-in-out infinite alternate;
+}
+.s13 {
+  background-position-x: -195px;
+  animation: w 1s 1.04s ease-in-out infinite alternate;
+}
+.s14 {
+  background-position-x: -210px;
+  animation: w 1s 1.12s ease-in-out infinite alternate;
+}
+.s15 {
+  background-position-x: -225px;
+  animation: w 1s 1.2s ease-in-out infinite alternate;
+}
+.s16 {
+  background-position-x: -240px;
+  animation: w 1s 1.28s ease-in-out infinite alternate;
+}
+.s17 {
+  background-position-x: -255px;
+  animation: w 1s 1.36s ease-in-out infinite alternate;
+}
+.s18 {
+  background-position-x: -270px;
+  animation: w 1s 1.44s ease-in-out infinite alternate;
+}
+.s19 {
+  background-position-x: -285px;
+  animation: w 1s 1.52s ease-in-out infinite alternate;
+}
+.s20 {
+  background-position-x: -300px;
+  animation: w 1s 1.6s ease-in-out infinite alternate;
+}
+.s21 {
+  background-position-x: -315px;
+  animation: w 1s 1.68s ease-in-out infinite alternate;
+}
+.s22 {
+  background-position-x: -330px;
+  animation: w 1s 1.76s ease-in-out infinite alternate;
+}
+.s23 {
+  background-position-x: -345px;
+  animation: w 1s 1.84s ease-in-out infinite alternate;
+}
+.s24 {
+  background-position-x: -360px;
+  animation: w 1s 1.92s ease-in-out infinite alternate;
+}
+@keyframes w {
+  to {
+    transform: translateZ(0.0001px) rotateY(-14.1176470588deg);
+ }
+}
+
+.percentage{
+  font-size: 40px;
+}
+
+.start-button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #00ff00;
+  border: none;
+  font-variant: small-caps;
+  color: white; 
+  font-family: 'DM Sans', sans-serif;
+}
