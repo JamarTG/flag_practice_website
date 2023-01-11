@@ -1,5 +1,4 @@
 //React Hooks
-import Image from 'next/image';
 import { useState } from 'react';
 import WavingFlag from './components/WavingFlag';
 
@@ -9,7 +8,7 @@ import getCountryOptions from './util/getCountryOptions';
 import verifyAnswer from './util/verifyAnswer';
 
 //Interfaces
-import {Country,Progress} from './resource/interfaces';
+import {Country,Progress} from '../resource/interfaces';
 
 
 export default function Home() {

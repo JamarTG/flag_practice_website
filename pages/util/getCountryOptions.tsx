@@ -21,7 +21,7 @@ const getCountryOptions = async () => {
     
     let condensedCountryData = chosenCountries.map(country => {
         if(country.name == undefined){
-            getCountryOptions()
+            getCountryOptions();
         }
         return {name : country.name.common,flag:country.flags.png,id:country.id}
     

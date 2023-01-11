@@ -8,7 +8,6 @@ interface Progress {
     correct:number,
     total:number,
     percCorrect:number,
-    
 }
 
 export type {Progress , Country}
