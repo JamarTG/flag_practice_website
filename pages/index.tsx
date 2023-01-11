@@ -4,8 +4,8 @@ import WavingFlag from './components/WavingFlag';
 
 
 // Utility Functions
-import getCountryOptions from './util/getCountryOptions';
-import verifyAnswer from './util/verifyAnswer';
+import getCountryOptions from '../util/getCountryOptions';
+import verifyAnswer from '../util/verifyAnswer';
 
 //Interfaces
 import {Country,Progress} from '../resource/interfaces';
